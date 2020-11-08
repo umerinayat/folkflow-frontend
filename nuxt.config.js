@@ -23,12 +23,14 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/scss/index.scss'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~plugins/bootstrap'
+    //'~plugins/bootstrap',
+    '~/plugins/i18n.js'
   ],
   /*
   ** Nuxt.js dev-modules

@@ -1,8 +1,6 @@
 <template>
-  <div class="container">
-    <div class="jumbotron">
-      test
-    </div>
+  <div>
+    
   </div>
 </template>
 
@@ -10,7 +8,7 @@
 
 export default {
   mounted() {
-    $('body').html('jquery rocks')
+   
   },
   components: {}
 }
